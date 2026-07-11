@@ -7,7 +7,7 @@ The feature-importance identification, incremental-modification procedure that a
 ## What is in this repository
 
 - `scripts/`: Core scripts for annotation, model runs, and analysis.
-- `scripts/final_round_multimodel/`: Multi-model experiment scripts and post-processing.
+- `scripts/multimodel/`: Multi-model experiment scripts and post-processing.
 - Prompts 
 
 
@@ -47,9 +47,9 @@ Examples from the repository root:
 
 ```bash
 python scripts/annotate_fake_easy_eval.py
-python scripts/final_round_multimodel/1_distortion_detection_GPT4.py
-python scripts/final_round_multimodel/2_unde_detection_GPT4o.py
-python scripts/final_round_multimodel/3_detection_analysis.py
+python scripts/multimodel/1_distortion_detection_GPT4.py
+python scripts/multimodel/2_unde_detection_GPT4o.py
+python scripts/multimodel/3_detection_analysis.py
 ```
 
 Most scripts expect input CSV files under `data/` and will write outputs into local result folders.
