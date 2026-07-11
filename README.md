@@ -2,7 +2,7 @@
 
 Code and data for the research paper "Algospeak, Hiding in the Open: The Trade-off Between Legible Meaning and  Detection Avoidance". Containing experiments on misinformation detection and text reconstruction under controlled text distortions.
 
-The feature-importance identification, incremental-modification procedure—that and the 700 populated dataset items remain restricted to vetted researchers after publication.
+The feature-importance identification, incremental-modification procedure that and the 700 populated dataset items remain restricted to vetted researchers after publication.
 
 ## What is in this repository
 
