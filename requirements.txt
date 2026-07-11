@@ -1,0 +1,14 @@
+openai>=1.0.0
+pandas
+numpy
+matplotlib
+python-dotenv
+requests
+scipy
+anthropic
+groq
+langchain-openai
+langchain-core
+transformers
+torch
+shap
